@@ -1,0 +1,23 @@
+{
+  "name": "storybook-apprun",
+  "private": true,
+  "version": "1.0.0",
+  "description": "using storybook with apprun",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "keywords": [],
+  "author": "spurreiter",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-react": "^7.9.4",
+    "@storybook/html": "^5.3.18",
+    "apprun": "^2.23.16",
+    "babel-loader": "^8.1.0"
+  }
+}
